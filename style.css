@@ -1,3 +1,13 @@
 .container-fluid{
     padding-bottom: 10px;
 }
+.nav-item{
+    color: azure;
+    padding-right: 50px;
+}
+.ml-auto{
+    text-align: right;
+}
+#who-am-i{
+    margin-top: 65px;
+}
