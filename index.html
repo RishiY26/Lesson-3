@@ -23,12 +23,21 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid bg-info text-center">
+    <nav class="navbar bg-dark fixed-top navbar-expand-md navbar-dark">
+        <img src="Assets/Image20241123140950.png" class="img-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#button">
+            <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="button"><ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#who-am-i">Who</a></li>
+        <li class="nav-item"><a class="nav-link" href="#what-am-i">What</a></li>
+        <li class="nav-item"><a class="nav-link" href="#where-am-i">Where</a></li>
+    </ul></div></nav>
+    <div class="container-fluid bg-info text-center" id="who-am-i">
         <h1 class="margin">Who am I?</h1>
         <img src="Assets/Image20241123140954.jpg" class="img-fluid">
         <h1>I am an adventurer</h1>
     </div>
-    <div class="container-fluid bg-info text-center">
+    <div class="container-fluid bg-info text-center" id="what-am-i">
         <h1>What am I?</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <a class="btn btn-outline-warning">
@@ -37,7 +46,7 @@
 
         </a>
     </div>
-    <div class="container-fluid bg-info text-center">
+    <div class="container-fluid bg-info text-center" id="where-am-i">
         <h1 class="margin">
             Webpage made by Rishi
         </h1>
